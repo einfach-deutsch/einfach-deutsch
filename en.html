@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+</html><head>
+    <title>Einfach Deutsch</title>
+    <style>
+
+* {
+  border: 0;
+  margin: 0;
+}
+
+main {
+  overflow: hidden;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  top: 40px;
+  width: 100%;
+  position: relative;
+  background-attachment: scroll;
+}
+
+h1 {
+  color: white;
+  padding: 30px 0 30px 30px;
+  width: 95%;
+  font-size: 50px;
+  position: absolute;
+  background-color: hsl(213, 31%, 11%);
+  z-index: 5;
+}
+
+h1, h2, h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+#logoso {
+  display: inline;
+  height: 119px;
+  width: 119px;
+  right: 0;
+  position: absolute;
+  z-index: 8;
+}
+
+nav {
+  background-color: hsl(213, 40%, 18%);
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  font-size: 20;
+  z-index: 10;
+}
+
+nav table {
+  width: 100%;
+}
+
+nav th, td {
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.lang {
+  float: right;
+  padding-right: 30px;
+}
+
+main {
+  background-color: hsl(222, 62%, 8%);
+  color: hsl(208, 14%, 75%);
+  padding-top: 230px;
+  z-index: 1;
+  width: 100%;
+  position: relative;
+}
+
+main section {
+  width: 90%;
+  margin: 0 auto;
+}
+
+p {
+  line-height: 1.7;
+}
+
+.desc, .catalog {
+  margin: 0 auto 350px auto
+}
+ h2 {
+   text-transform: uppercase;
+ }
+
+h2, h3, h4 {
+  color: white;
+}
+
+h3 {
+  display: inline;
+}
+
+#introduction {
+  width: 50%;
+  height: 380px;
+  float: left;
+  margin-right: 30px;
+}
+
+#cacho {
+  width: 50%;
+  height: 380px;
+  float: right;
+  margin-left: 30px;
+}
+
+.desc {
+  background-color: hsl(213, 40%, 18%);
+  height: 380px;
+}
+
+.desc h2, p {
+  padding: 30px;
+}
+
+.serv {
+  width: 100%;
+}
+
+.catalog table {
+  border-collapse: collapse;
+}
+
+.catalog tr, td {
+  text-align: left;
+  padding-left: 30px;
+}
+
+.t0 {
+  background-color: hsl(214, 18%, 46%);
+  height: 80px;
+}
+
+.t1 {
+  background-color: hsl(216, 26%, 30%);
+  height: 100px;
+}
+
+.t2 {
+  background-color: hsl(208, 36%, 21%);
+  height: 100px;
+}
+
+.t3 {
+  background-color: hsl(213, 40%, 18%);
+  height: 100px;
+}
+
+.t4 {
+  background-color: hsl(213, 31%, 11%);
+  height: 100px;
+}
+
+.cont {
+  background-color: hsl(213, 40%, 18%);
+  margin-bottom: 40px;
+}
+
+.cont h2 {
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 60px;
+  background-color: hsl(213, 31%, 11%);
+}
+
+.message {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 60px;
+}
+
+.message .mail {
+  width: 80%;
+  color: hsl(208, 14%, 75%);
+  height: 40px;
+  float: left;
+  margin-top: 20px;
+  background-color: hsl(216, 26%, 30%);
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+}
+
+.message .send {
+  width: 18%;
+  height: 40px;
+  margin-top: 20px;
+  float: right;
+  color: white;
+  background-color: hsl(216, 26%, 30%);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+textarea {
+  width: 100%;
+  height: 220px;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: hsl(208, 14%, 75%);
+  background-color: hsl(216, 26%, 30%);
+}
+
+.cont table {
+  margin-top: 60px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 100%;
+  background-color: hsl(213, 31%, 11%);
+}
+
+.icon {
+  height: 16px;
+  width: 16px;
+  padding-right: 10px;
+}
+
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
+  </head>
+
+
+<!-- nav -->
+  <body>
+    <nav>
+      <table>
+        <th>
+          <td><a href="#quien">Who I am</a></td>
+          <td><a href="#clases">My classes</a></td>
+          <td><a href="#servicios">Services</a></td> <!--
+          <td><a href="#booking">Reserva una clase</a></td> -->
+          <td><a href="#contacto">Contact</a></td>
+          <td class="lang">
+            <a href="./index.html">
+              <img src="./icons/es.png" alt="Spanish" class="icon"/>
+            </a>
+            <a href="./de.html">
+              <img src="./icons/de.png" alt="German" class="icon"/>
+            </a>
+          </td>
+        </th>
+      </table>
+    </nav>
+
+<!-- header -->
+    <header>
+      <h1>Einfach Deutsch</h1>
+      <img id="logoso" src="./logoso_dark.png" />
+    </header>
+
+<!-- intro -->
+    <main>
+      <section id="quien">
+        <!-- <video id="introduction" src=“” width=“480” height =“320” controls>Introducción</video> -->
+        <div class="desc">
+          <h2>Who I am</h2>
+          <p >My name is Isra and I'm from Mexico City. German culture has always fascinated me. That's why I've been living in Germany for over four years now, during which I've been studying German as a Foreign Language. I have a C1 level and know all the challenges of learning German. Moreover, I am familiar with the difficulties of German everyday life as a foreigner. Additionally, thanks to my University career and my years of experience teaching German, I have a large repertoire of methods and strategies to help you learn faster.</p>
+        </div>
+      </section>
+      <br>
+
+<!-- class -->
+      <section id="clases">
+        <!-- <video id="cacho" src=“” width=“480” height =“320” controls>Cacho de clase</video> -->
+        <div class="desc">
+          <h2>My classes</h2>
+          <p>In <em>Einfach Deutsch</em> I offer you online one-on-one lessons. My classes are interactive and individually tailored, taking into account your personality to find the method that works <em>best for you</em>. You will receive all the material you need - Books and charts, but also authentic material like videos, songs or articles. Furthermore, there will be plenty of opportunity to practice your newly acquired skills in conversation to gain fluency.</p>
+        </div>
+      </section>
+      <hr>
+
+<!-- service -->
+      <section id="servicios" class="catalog">
+        <table class="serv">
+          <tr class="t0">
+            <td colspan="3"><h2>Services</h2></td>
+          <tr class="t1">
+            <td><h3>German Lesson</h3></td>
+            <td>One-on-one lesson. Tailored specifically to your needs.</td>
+            <td><h4>15.00$</h4> per hour</td>
+          </tr>
+          <tr class="t2">
+            <td><h3>Trial Lesson </h3><em>50%</em></td>
+            <td>Receive a 50% discount for your first lesson.</td>
+            <td><h4>7.50$</h4> per hour</td>
+          </tr>
+          <tr class="t3">
+            <td><h3>10 Hours of Lessons  </h3><em>20%</em></td>
+            <td>Reserve 10 hours of lessons and receive a 20% discount.</td>
+            <td><h4>120.00$</h4></td>
+          </tr>
+          <tr class="t4">
+            <td><h3>Translation</h3></td>
+            <td>English, Spanish and German.
+            <td><h4>5.00$</h4>per page</td>
+          </tr>
+        </table>
+      </section>
+      <hr>
+
+<!-- buy
+      <section id="booking">
+        <h2>Reserva una clase</h2>
+        <form>
+          <p>Duración de clase:</p>
+          <input id="short" name="duration" type="radio" value="30" required>
+          <label for="short">30 Minutos</label>
+          <input id="medium" name="duration" type="radio" value="60" required>
+          <label for="medium">1 Hora</label>
+          <input id="long" name="duration" type="radio" value="90" required>
+          <label for="long">Hora y Media</label>
+          <p>A qué hora?</p>
+          <input type="number" name="hour" id="hour" required min="0" max="24" step="1" placeholder="Horas">
+          <label for="hour">:</label>
+          <input type="number" name="minute" id="minute" required min="0" max="45" step="15" placeholder="Minutos">
+          <input type="submit" value="Reservar">
+        </form>
+      </section>
+      <hr> -->
+
+<!-- contact -->
+      <section id="contacto">
+        <div class="cont">
+          <h2>Contact</h2>
+          <!-- <form class="message" action="./submit.php" method="POST">
+            <textarea name="message" id="message" rows="3" cols="3" required placeholder="Leave me a message"></textarea>
+            <br>
+            <input type="text" name="contact" id="contact" class="mail" required placeholder="Your mail so I can reply">
+            <input type="submit" class="send" value="Send">
+          </form>
+          <br> -->
+          <table>
+            <tr>
+              <td>
+                <img src="./icons/whatsapp.png" alt="Whatsapp:" class="icon" /> +49 1515 6664618</td>
+              <td><img src="./icons/gmail.png" alt="E-Mail:" class="icon" /> israelbecker91@gmail.com</td>
+              <td>
+                <a href="https://www.facebook.com/Einfach-Deutsch-104099878011314/" target="_blank">
+                  <img src="./icons/facebook.png" alt="Facebook" class="icon" />
+                </a>
+              </td>
+              <td>
+                <a href="https://www.youtube.com/channel/UCtJ91anUOhl648WJxxDDZDQ/playlists" target="_blank">
+                  <img src="./icons/youtube.png" alt="Youtube" class="icon" />
+                </a>
+              </td>
+              <td>
+                <a href="https://twitter.com/EinfachDeutsch6" target="_blank">
+                  <img src="./icons/twitter.png" alt="Twitter" class="icon" />
+                </a>
+              </td>
+              <td>
+                <a href="https://www.instagram.com/einfach_deutsch91/" target="_blank">
+                  <img src="./icons/instagram.png" alt="Instagram" class="icon" />
+                </a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
