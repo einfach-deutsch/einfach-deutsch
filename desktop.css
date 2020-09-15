@@ -182,12 +182,23 @@
     margin: auto;
     padding-bottom: 60px;
   }
-  
-  .message .mail {
-    width: 80%;
+
+  .message .nombre {
+    width: 30%;
     color: hsl(208, 14%, 75%);
     height: 40px;
     float: left;
+    margin-top: 20px;
+    margin-right: 5%;
+    background-color: hsl(216, 26%, 30%);
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+  }
+  
+  .message .mail {
+    width: 42%;
+    color: hsl(208, 14%, 75%);
+    height: 40px;
     margin-top: 20px;
     background-color: hsl(216, 26%, 30%);
     font-family: "Lato", sans-serif;
