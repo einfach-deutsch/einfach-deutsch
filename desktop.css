@@ -87,7 +87,7 @@
     line-height: 1.7;
   }
   
-  .desc, .catalog {
+  .desc, .catalog, #grupos {
     margin: 0 auto 350px auto
   }
    h2 {
@@ -163,6 +163,56 @@
     background-color: hsl(213, 31%, 11%);
     height: 100px;
   }
+
+  #grupos {
+    height: 380px;
+    background-color: hsl(213, 40%, 18%);
+  }
+
+  #grupos p {
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+  }
+
+  #group {
+    width: 40%;
+    height: 320px;
+    float: right;
+    position: relative;
+    bottom: 90px;
+    right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: hsl(213, 35%, 11%);
+  }
+
+  #group, #group tr {
+    border: 5px solid hsl(213, 40%, 18%);
+    border-collapse: collapse;
+  }
+
+  #group tr:nth-child(even) {
+    background-color: hsl(222, 45%, 8%);
+  }
+
+  #grupos h2 {
+    width: 50%;
+  }
+
+  #grupos h2, p {
+    padding: 30px;
+  }
+
+  #grupos h4 {
+    display: inline;
+  }
+
+  #grupos em {
+    font-weight: bold;
+    font-style: normal;
+  }
   
   .cont {
     background-color: hsl(213, 40%, 18%);
@@ -226,7 +276,7 @@
     color: hsl(208, 14%, 75%);
     background-color: hsl(216, 26%, 30%);
   }
-  
+
   .cont table {
     padding-top: 16px;
     padding-bottom: 16px;
